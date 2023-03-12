@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: olenaivina/hello-gitops
-  newTag: 1c9916e42fd6
+  newTag: latest
