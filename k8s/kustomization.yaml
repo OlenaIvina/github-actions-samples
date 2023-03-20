@@ -4,8 +4,8 @@ resources:
 - deployment.yaml
 - service.yaml
 - ingress.yaml
-namespace: hello-gitops
+namespace: python-app-blue
 images:
 - name: hello-gitops
   newName: olenaivina/hello-gitops
-  newTag: dockerfile-method
+  newTag: 3bffc51a8092a72478d82a505150a6d648fc3125
